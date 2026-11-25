@@ -26,9 +26,7 @@ fi
 
 declare -a FILES=(
   "items.json"
-  "noise_parameters.json"
   "message_type.json"
-  "en_us.json"
   "entity_statuses.json"
   "sound_category.json"
   "fluids.json"
@@ -37,13 +35,13 @@ declare -a FILES=(
   "carver.json"
   "game_rules.json"
   "game_event.json"
+  "position_source_type.json"
   "sounds.json"
   "status_effects.json"
   "entities.json"
   "scoreboard_display_slot.json"
   "attributes.json"
   "placed_feature.json"
-  "synced_registries.json"
   "spawn_egg.json"
   "particles.json"
   "multi_noise_biome_tree.json"
@@ -52,13 +50,13 @@ declare -a FILES=(
   "packets.json"
   "screens.json"
   "gen_features.json"
-  "biome.json"
   "blocks.json"
   "recipes.json"
   "chunk_status.json"
   "chunk_gen_settings.json"
   "density_function.json"
   "world_event.json"
+  "entity_variants.json"
 )
 
 for FILE in "${FILES[@]}"; do
@@ -112,15 +110,11 @@ declare -a FILES=(
   "nether_carvers_no_blend_no_beard_0_0.chunk"
   "nether_carvers_no_blend_no_beard_7_4.chunk"
   "biome_mixer.json"
-  "grid_8x8_noise.json"
-  "grid_8x8_surface.json"
-  "grid_8x8_carvers.json"
-  "grid_8x8_features.json"
-  "nether_grid_8x8_features.json"
-  "end_grid_8x8_features.json"
-  "grid_8x8_structures.json"
-  "area_structures.json"
   "grid_8x8_biomes.json"
+  "stage_hashes.json"
+  "nether_stage_hashes.json"
+  "end_stage_hashes.json"
+  "structure_starts.json"
 )
 
 for FILE in "${FILES[@]}"; do
